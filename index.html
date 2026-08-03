@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelvin Nacho — Graphic Designer &amp; Web Developer</title>
+<meta name="description" content="Kelvin Nacho is a graphic designer and front-end developer based in Kenya, designing brand identities, business websites, and data dashboards.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340..600;1,9..144,400..500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9zzTronj4E1H5pzxeXeydzcSF9Bd/e1RyQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+<a href="#opening" class="skip-link">Skip to content</a>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<button class="index-toggle" id="indexToggle" aria-expanded="false" aria-controls="indexPanel">
+  <span class="index-toggle-mark">KN</span>
+  <span class="index-toggle-label">Index</span>
+</button>
+
+<nav class="index-panel" id="indexPanel" aria-label="Table of contents">
+  <div class="index-panel-inner">
+    <p class="index-eyebrow">Contents</p>
+    <ol class="index-list">
+      <li><a href="#opening" data-close><span class="n">00</span> Opening</a></li>
+      <li><a href="#about" data-close><span class="n">01</span> The person behind the commits</a></li>
+      <li><a href="#practice" data-close><span class="n">02</span> What I do</a></li>
+      <li><a href="#tools" data-close><span class="n">03</span> Tools I reach for</a></li>
+      <li><a href="#shipped" data-close><span class="n">04</span> Things I've shipped</a></li>
+      <li><a href="#process" data-close><span class="n">05</span> How a project moves</a></li>
+      <li><a href="#contact" data-close><span class="n">06</span> Get in touch</a></li>
+    </ol>
+    <div class="index-footer">
+      <a href="mailto:kelvinnatonia@gmail.com">kelvinnatonia@gmail.com</a>
+      <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener">github.com/Nacho-kelvin</a>
+    </div>
+  </div>
+</nav>
+<div class="index-scrim" id="indexScrim"></div>
+
+<div class="spine" aria-hidden="true">
+  <svg id="spineSvg" preserveAspectRatio="none">
+    <path id="spinePath" fill="none" />
+  </svg>
+</div>
+
+<main id="opening">
+
+  <!-- CHAPTER 00 — OPENING (no hero; a typographic opening line) -->
+  <section class="chapter chapter-opening" id="opening-chapter" data-chapter="00">
+    <div class="marginalia"><span class="chap-num">00</span><span class="chap-label">Opening</span></div>
+    <div class="chapter-body">
+      <p class="eyebrow"><span class="dot"></span> Open to new work · Kenya, remote-friendly</p>
+      <h1 class="opening-line">I design the brand.<br>Then I build the site<br>that carries it.</h1>
+      <p class="opening-sub">Kelvin Nacho — graphic designer and front-end developer. Logos and identity systems on one side, responsive websites and data dashboards on the other, built to work as hard as they look.</p>
+      <p class="opening-links">
+        <a href="#shipped">Read what I've shipped →</a>
+        <a href="#contact">or skip to contact →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- CHAPTER 01 — ABOUT -->
+  <section class="chapter" id="about" data-chapter="01">
+    <div class="marginalia">
+      <span class="chap-num">01</span>
+      <span class="chap-label">About</span>
+      <ul class="marginalia-facts">
+        <li><span>Location</span>Kenya (remote)</li>
+        <li><span>Focus</span>Design &amp; web dev</li>
+        <li><span>Status</span>Open to work</li>
+        <li><span>GitHub</span><a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener">@Nacho-kelvin</a></li>
+      </ul>
+    </div>
+    <div class="chapter-body">
+      <h2 class="chapter-title">The person behind the <em>commits</em></h2>
+      <p class="drop-cap">I'm Kelvin, a graphic designer and front-end developer who likes problems with a right answer hiding in the data — or the brand — somewhere. My work splits into two halves that keep feeding each other: visual identity, meaning logos, brand systems, and print and social collateral, and the websites and dashboards that carry that identity online.</p>
+      <p>I care about clarity over decoration. Before I open a design file or a code editor, I want to know what the business is trying to say and who needs to understand it. That habit sits behind everything a few pages down: a business-website brief, a couple of data dashboards, and — because not everything has to be client work — a playable chess board.</p>
+      <figure class="about-figure">
+        <img src="assets/images/profile.jpg" alt="Portrait of Kelvin Nacho" loading="lazy" width="640" height="640">
+        <figcaption>Usually sketching a logo concept, reading about accessibility, or working out why a chart rendered one pixel off.</figcaption>
+      </figure>
+      <div class="stat-line">
+        <div><span class="num" data-count="3">0</span><span class="lbl">Projects shipped</span></div>
+        <div><span class="num" data-count="2">0</span><span class="lbl">Years designing &amp; building</span></div>
+        <div><span class="num" data-count="100">0</span><span class="lbl">% reply rate, usually within 24h</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 02 — SERVICES, as running text rather than a card grid -->
+  <section class="chapter" id="practice" data-chapter="02">
+    <div class="marginalia"><span class="chap-num">02</span><span class="chap-label">Practice</span></div>
+    <div class="chapter-body">
+      <h2 class="chapter-title">What I can do <em>for you</em></h2>
+      <p class="chapter-lede">Two disciplines, one goal: make a business look credible and easy to deal with.</p>
+
+      <div class="practice-entry">
+        <h3><i class="fa-solid fa-palette" aria-hidden="true"></i> Brand &amp; graphic design</h3>
+        <p>Visual identity that holds up across every touchpoint a customer sees — logo and brand identity, business cards and letterheads, social and marketing graphics, flyers, posters and print design.</p>
+      </div>
+      <div class="practice-entry">
+        <h3><i class="fa-solid fa-globe" aria-hidden="true"></i> Business websites</h3>
+        <p>Sites that represent a business well and stay simple to maintain — company and portfolio sites, landing pages, responsive mobile-first builds, with basic SEO and performance set up from the start.</p>
+      </div>
+      <div class="practice-entry">
+        <h3><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Data &amp; dashboards</h3>
+        <p>Numbers turned into charts people actually read — dashboards and reporting views, chart and graph design, data cleanup and analysis before any of it gets visualised.</p>
+      </div>
+      <div class="practice-entry">
+        <h3><i class="fa-solid fa-code" aria-hidden="true"></i> Front-end development</h3>
+        <p>Clean, dependable code behind every screen — custom UI components, HTML, CSS and JavaScript builds, and ongoing website maintenance and updates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 03 — SKILLS, typographic weight instead of progress bars -->
+  <section class="chapter" id="tools" data-chapter="03">
+    <div class="marginalia"><span class="chap-num">03</span><span class="chap-label">Tools</span></div>
+    <div class="chapter-body">
+      <h2 class="chapter-title">Tools I reach for <em>most</em></h2>
+      <p class="chapter-lede">Sized by day-to-day comfort, not certificates — the larger the word, the more often it's open.</p>
+
+      <div class="tool-group">
+        <h3>Design</h3>
+        <p class="tool-cloud">
+          <span style="--w:90">Adobe Photoshop</span>
+          <span style="--w:85">Adobe Illustrator</span>
+          <span style="--w:80">Figma</span>
+          <span style="--w:88">Brand identity</span>
+        </p>
+      </div>
+      <div class="tool-group">
+        <h3>Build</h3>
+        <p class="tool-cloud">
+          <span style="--w:95">HTML &amp; CSS</span>
+          <span style="--w:88">JavaScript</span>
+          <span style="--w:75">React</span>
+          <span style="--w:90">Responsive &amp; accessible UI</span>
+        </p>
+      </div>
+      <div class="tool-group">
+        <h3>Analyze</h3>
+        <p class="tool-cloud">
+          <span style="--w:80">Python</span>
+          <span style="--w:85">Chart.js &amp; Matplotlib</span>
+          <span style="--w:90">Git &amp; GitHub</span>
+          <span style="--w:78">UI/UX fundamentals</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 04 — PROJECTS, full-bleed alternating, no card grid -->
+  <section class="chapter chapter-wide" id="shipped" data-chapter="04">
+    <div class="marginalia"><span class="chap-num">04</span><span class="chap-label">Shipped</span></div>
+    <div class="chapter-body">
+      <h2 class="chapter-title">A few things I've <em>shipped</em></h2>
+      <p class="chapter-lede">A mix of interfaces and interactive data, in the order I built them.</p>
+    </div>
+
+    <article class="project-entry">
+      <div class="project-media">
+        <img src="assets/images/project-web-traffic.png" alt="Grouped bar chart comparing website visitors by traffic source across five months" loading="lazy">
+      </div>
+      <div class="project-text">
+        <p class="project-kind">Data viz · Python, Matplotlib, Pandas</p>
+        <h3>Web traffic dashboard</h3>
+        <p>A grouped bar chart breaking visitors down by search, direct, and social traffic, month over month — built to make traffic-source shifts obvious at a glance.</p>
+        <div class="project-links">
+          <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+          <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Details</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-entry project-entry-reverse">
+      <div class="project-media">
+        <img src="assets/images/project-kenya-gdp.png" alt="Line chart showing Kenya's GDP growth from 2015 to 2025" loading="lazy">
+      </div>
+      <div class="project-text">
+        <p class="project-kind">Data viz · Python, Matplotlib, data analysis</p>
+        <h3>Kenya GDP growth analysis</h3>
+        <p>A ten-year line chart tracking Kenya's GDP in billions of USD, used to spot the years of sharpest growth and the 2020 slowdown at a glance.</p>
+        <div class="project-links">
+          <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+          <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Details</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-entry">
+      <div class="project-media">
+        <img src="assets/images/project-chess.png" alt="Screenshot of a browser-based chess board interface" loading="lazy">
+      </div>
+      <div class="project-text">
+        <p class="project-kind">Web app · JavaScript, HTML5, CSS Grid</p>
+        <h3>Browser chess</h3>
+        <p>A playable chess board built for the browser, focused on clean piece rendering and simple, dependable interactions over flashy animation.</p>
+        <div class="project-links">
+          <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+          <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Details</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- CHAPTER 05 — PROCESS, as a connected line rather than four boxes -->
+  <section class="chapter" id="process" data-chapter="05">
+    <div class="marginalia"><span class="chap-num">05</span><span class="chap-label">Process</span></div>
+    <div class="chapter-body">
+      <h2 class="chapter-title">How a project <em>moves</em></h2>
+      <ol class="process-line">
+        <li><span class="stage">Start</span><h3>Understand the data</h3><p>Before any UI, I figure out what question the screen needs to answer, and for whom.</p></li>
+        <li><span class="stage">Then</span><h3>Sketch the structure</h3><p>Wireframes and component maps, so layout decisions happen before pixels do.</p></li>
+        <li><span class="stage">Then</span><h3>Build in the open</h3><p>Working commits, visible progress, early previews rather than a single reveal.</p></li>
+        <li><span class="stage">Finish</span><h3>Test &amp; hand off</h3><p>Cross-device checks, an accessibility pass, and clear notes for whoever maintains it next.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CHAPTER 06 — CONTACT -->
+  <section class="chapter" id="contact" data-chapter="06">
+    <div class="marginalia"><span class="chap-num">06</span><span class="chap-label">Contact</span></div>
+    <div class="chapter-body">
+      <h2 class="chapter-title">Let's build something <em>clear</em></h2>
+      <p class="chapter-lede">Have a project, a dashboard, or just a question? I read every message myself.</p>
+
+      <div class="contact-wrap">
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:kelvinnatonia@gmail.com">kelvinnatonia@gmail.com</a></li>
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+254714188409">0714 188 409</a></li>
+          <li><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> <a href="https://wa.me/254714188409" target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Kenya · remote-friendly</li>
+          <li><i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/Nacho-kelvin" target="_blank" rel="noopener">github.com/Nacho-kelvin</a></li>
+        </ul>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me a bit about the project" required></textarea>
+          </div>
+          <button type="submit" class="btn-send">Send message <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+          <span class="form-status" role="status"></span>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Kelvin Nacho. Built from scratch, no template.</span>
+  <a href="#opening">Back to top ↑</a>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
